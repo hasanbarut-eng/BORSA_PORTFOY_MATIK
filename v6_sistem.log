@@ -1,0 +1,124 @@
+2026-02-15 23:07:44,207 | INFO | Connecting to 149.154.167.92:443/TcpFull...
+2026-02-15 23:07:44,265 | INFO | Connection to 149.154.167.92:443/TcpFull complete!
+2026-02-15 23:07:44,757 | INFO | V6 Sistemi baþarýyla baþlatýldý.
+2026-02-15 23:12:41,398 | INFO | Yeni rapor yakalandý, süzgeç tetikleniyor.
+2026-02-15 23:12:41,410 | INFO | 5 adet fýrsat kaydedildi.
+2026-02-15 23:12:41,811 | INFO | Yeni rapor yakalandý, süzgeç tetikleniyor.
+2026-02-15 23:12:41,811 | INFO | 5 adet fýrsat kaydedildi.
+2026-02-15 23:12:42,273 | INFO | Yeni rapor yakalandý, süzgeç tetikleniyor.
+2026-02-15 23:12:42,273 | INFO | 4 adet fýrsat kaydedildi.
+2026-02-15 23:12:42,680 | INFO | Yeni rapor yakalandý, süzgeç tetikleniyor.
+2026-02-15 23:12:42,682 | INFO | 5 adet fýrsat kaydedildi.
+2026-02-15 23:12:43,122 | INFO | Yeni rapor yakalandý, süzgeç tetikleniyor.
+2026-02-15 23:12:43,122 | INFO | 4 adet fýrsat kaydedildi.
+2026-02-15 23:12:46,678 | INFO | Yeni rapor yakalandý, süzgeç tetikleniyor.
+2026-02-15 23:12:46,678 | INFO | 6 adet fýrsat kaydedildi.
+2026-02-15 23:12:47,069 | INFO | Yeni rapor yakalandý, süzgeç tetikleniyor.
+2026-02-15 23:12:47,069 | INFO | 6 adet fýrsat kaydedildi.
+2026-02-15 23:12:47,537 | INFO | Yeni rapor yakalandý, süzgeç tetikleniyor.
+2026-02-15 23:12:47,537 | INFO | 5 adet fýrsat kaydedildi.
+2026-02-15 23:12:47,988 | INFO | Yeni rapor yakalandý, süzgeç tetikleniyor.
+2026-02-15 23:12:47,992 | INFO | 6 adet fýrsat kaydedildi.
+2026-02-15 23:12:48,494 | INFO | Yeni rapor yakalandý, süzgeç tetikleniyor.
+2026-02-15 23:12:48,494 | INFO | 6 adet fýrsat kaydedildi.
+2026-02-15 23:12:51,941 | INFO | Yeni rapor yakalandý, süzgeç tetikleniyor.
+2026-02-15 23:12:51,941 | INFO | 6 adet fýrsat kaydedildi.
+2026-02-15 23:12:52,369 | INFO | Yeni rapor yakalandý, süzgeç tetikleniyor.
+2026-02-15 23:12:52,369 | INFO | 6 adet fýrsat kaydedildi.
+2026-02-15 23:12:52,789 | INFO | Yeni rapor yakalandý, süzgeç tetikleniyor.
+2026-02-15 23:12:52,790 | INFO | 6 adet fýrsat kaydedildi.
+2026-02-15 23:12:53,227 | INFO | Yeni rapor yakalandý, süzgeç tetikleniyor.
+2026-02-15 23:12:53,227 | INFO | 6 adet fýrsat kaydedildi.
+2026-02-15 23:12:53,648 | INFO | Yeni rapor yakalandý, süzgeç tetikleniyor.
+2026-02-15 23:12:53,655 | INFO | 6 adet fýrsat kaydedildi.
+2026-02-15 23:12:57,114 | INFO | Yeni rapor yakalandý, süzgeç tetikleniyor.
+2026-02-15 23:12:57,114 | INFO | 6 adet fýrsat kaydedildi.
+2026-02-15 23:12:57,561 | INFO | Yeni rapor yakalandý, süzgeç tetikleniyor.
+2026-02-15 23:12:57,563 | INFO | 6 adet fýrsat kaydedildi.
+2026-02-15 23:12:58,025 | INFO | Yeni rapor yakalandý, süzgeç tetikleniyor.
+2026-02-15 23:12:58,029 | INFO | 6 adet fýrsat kaydedildi.
+2026-02-15 23:12:58,451 | INFO | Yeni rapor yakalandý, süzgeç tetikleniyor.
+2026-02-15 23:12:58,453 | INFO | 6 adet fýrsat kaydedildi.
+2026-02-15 23:12:58,859 | INFO | Yeni rapor yakalandý, süzgeç tetikleniyor.
+2026-02-15 23:12:58,865 | INFO | 6 adet fýrsat kaydedildi.
+2026-02-15 23:36:58,176 | INFO | Disconnecting from 149.154.167.92:443/TcpFull...
+2026-02-15 23:36:58,176 | INFO | Disconnection from 149.154.167.92:443/TcpFull complete!
+2026-02-15 23:37:01,604 | Connecting to 149.154.167.92:443/TcpFull...
+2026-02-15 23:37:01,668 | Connection to 149.154.167.92:443/TcpFull complete!
+2026-02-16 00:07:02,584 | Got difference for channel 2497619682 updates
+2026-02-16 00:15:03,425 | Got difference for channel 2497619682 updates
+2026-02-16 00:16:02,823 | Server closed the connection: [WinError 64] Belirtilen að adý artýk geçersiz
+2026-02-16 00:16:02,823 | Connection closed while receiving data: [WinError 64] Belirtilen að adý artýk geçersiz
+2026-02-16 00:16:02,823 | Closing current connection to begin reconnect...
+2026-02-16 00:16:02,823 | <class 'ConnectionResetError'> during disconnect: [WinError 64] Belirtilen að adý artýk geçersiz
+2026-02-16 00:16:02,823 | Connecting to 149.154.167.92:443/TcpFull...
+2026-02-16 00:16:02,886 | Connection to 149.154.167.92:443/TcpFull complete!
+2026-02-16 00:17:02,835 | Server closed the connection: [WinError 64] Belirtilen að adý artýk geçersiz
+2026-02-16 00:17:02,835 | Connection closed while receiving data: [WinError 64] Belirtilen að adý artýk geçersiz
+2026-02-16 00:17:02,835 | Closing current connection to begin reconnect...
+2026-02-16 00:17:02,836 | <class 'ConnectionResetError'> during disconnect: [WinError 64] Belirtilen að adý artýk geçersiz
+2026-02-16 00:17:02,836 | Connecting to 149.154.167.92:443/TcpFull...
+2026-02-16 00:17:02,896 | Connection to 149.154.167.92:443/TcpFull complete!
+2026-02-16 00:18:03,516 | Got difference for channel 2497619682 updates
+2026-02-16 00:22:02,668 | Got difference for channel 2497619682 updates
+2026-02-16 00:33:03,686 | Got difference for channel 2497619682 updates
+2026-02-16 00:34:03,733 | Got difference for channel 2497619682 updates
+2026-02-16 00:37:03,212 | Got difference for channel 2497619682 updates
+2026-02-16 00:40:03,712 | Got difference for channel 2497619682 updates
+2026-02-16 00:44:03,839 | Got difference for channel 2497619682 updates
+2026-02-16 00:48:03,769 | Got difference for channel 2497619682 updates
+2026-02-16 00:49:03,768 | Got difference for channel 2497619682 updates
+2026-02-16 00:52:02,848 | Got difference for channel 2497619682 updates
+2026-02-16 00:57:03,896 | Got difference for channel 2497619682 updates
+2026-02-16 01:07:02,855 | Got difference for account updates
+2026-02-16 01:08:04,027 | Got difference for channel 2497619682 updates
+2026-02-16 01:10:04,062 | Got difference for channel 2497619682 updates
+2026-02-16 01:19:04,107 | Got difference for channel 2497619682 updates
+2026-02-16 01:22:26,262 | Got difference for channel 2497619682 updates
+2026-02-16 01:26:47,862 | Connecting to 149.154.167.92:443/TcpFull...
+2026-02-16 01:26:47,927 | Connection to 149.154.167.92:443/TcpFull complete!
+2026-02-16 01:30:46,329 | 5 adet taze sinyal yakalandý ve mühürlendi.
+2026-02-16 01:30:46,778 | 5 adet taze sinyal yakalandý ve mühürlendi.
+2026-02-16 01:30:47,236 | 5 adet taze sinyal yakalandý ve mühürlendi.
+2026-02-16 01:30:47,708 | 6 adet taze sinyal yakalandý ve mühürlendi.
+2026-02-16 01:30:48,184 | 6 adet taze sinyal yakalandý ve mühürlendi.
+2026-02-16 01:30:51,683 | 6 adet taze sinyal yakalandý ve mühürlendi.
+2026-02-16 01:30:52,092 | 6 adet taze sinyal yakalandý ve mühürlendi.
+2026-02-16 01:30:52,533 | 6 adet taze sinyal yakalandý ve mühürlendi.
+2026-02-16 01:30:52,949 | 6 adet taze sinyal yakalandý ve mühürlendi.
+2026-02-16 01:30:53,415 | 6 adet taze sinyal yakalandý ve mühürlendi.
+2026-02-16 01:30:56,903 | 6 adet taze sinyal yakalandý ve mühürlendi.
+2026-02-16 01:30:57,391 | 6 adet taze sinyal yakalandý ve mühürlendi.
+2026-02-16 01:30:57,813 | 6 adet taze sinyal yakalandý ve mühürlendi.
+2026-02-16 01:30:58,260 | 6 adet taze sinyal yakalandý ve mühürlendi.
+2026-02-16 01:30:58,754 | 6 adet taze sinyal yakalandý ve mühürlendi.
+2026-02-16 01:31:02,227 | 6 adet taze sinyal yakalandý ve mühürlendi.
+2026-02-16 01:31:02,731 | 6 adet taze sinyal yakalandý ve mühürlendi.
+2026-02-16 01:31:03,202 | 6 adet taze sinyal yakalandý ve mühürlendi.
+2026-02-16 01:31:03,702 | 6 adet taze sinyal yakalandý ve mühürlendi.
+2026-02-16 01:31:04,176 | 6 adet taze sinyal yakalandý ve mühürlendi.
+2026-02-16 01:41:48,509 | Got difference for channel 2497619682 updates
+2026-02-16 01:44:05,074 | Disconnecting from 149.154.167.92:443/TcpFull...
+2026-02-16 01:44:05,075 | Disconnection from 149.154.167.92:443/TcpFull complete!
+2026-02-16 01:44:08,380 | Connecting to 149.154.167.92:443/TcpFull...
+2026-02-16 01:44:08,440 | Connection to 149.154.167.92:443/TcpFull complete!
+2026-02-16 01:44:29,138 | Portföy güncellendi. Toplam hisse: 5
+2026-02-16 01:44:29,567 | Portföy güncellendi. Toplam hisse: 10
+2026-02-16 01:44:29,973 | Portföy güncellendi. Toplam hisse: 15
+2026-02-16 01:44:30,358 | Portföy güncellendi. Toplam hisse: 21
+2026-02-16 01:44:30,732 | Portföy güncellendi. Toplam hisse: 27
+2026-02-16 01:44:34,212 | Portföy güncellendi. Toplam hisse: 33
+2026-02-16 01:44:34,625 | Portföy güncellendi. Toplam hisse: 39
+2026-02-16 01:44:35,044 | Portföy güncellendi. Toplam hisse: 45
+2026-02-16 01:44:35,441 | Portföy güncellendi. Toplam hisse: 51
+2026-02-16 01:44:35,853 | Portföy güncellendi. Toplam hisse: 57
+2026-02-16 01:44:39,291 | Portföy güncellendi. Toplam hisse: 63
+2026-02-16 01:44:39,699 | Portföy güncellendi. Toplam hisse: 69
+2026-02-16 01:44:40,075 | Portföy güncellendi. Toplam hisse: 75
+2026-02-16 01:44:40,466 | Portföy güncellendi. Toplam hisse: 81
+2026-02-16 01:44:40,884 | Portföy güncellendi. Toplam hisse: 87
+2026-02-16 01:44:44,360 | Portföy güncellendi. Toplam hisse: 93
+2026-02-16 01:44:44,753 | Portföy güncellendi. Toplam hisse: 99
+2026-02-16 01:44:45,152 | Portföy güncellendi. Toplam hisse: 105
+2026-02-16 01:44:45,567 | Portföy güncellendi. Toplam hisse: 111
+2026-02-16 01:44:45,950 | Portföy güncellendi. Toplam hisse: 117
