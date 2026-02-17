@@ -7,35 +7,37 @@ class V6AnalizMotoru:
 
     def raporu_parcala(self, metin: str) -> list:
         try:
-            bloklar = metin.split('━━━━━━━━━━━━━━━━━━━━')
+            # Mesajı "Hocamın borsa analizleri" ifadesine göre parçala
+            bloklar = re.split(r'Hocamın borsa analizleri,', metin)
             sonuclar = []
 
             for blok in bloklar:
                 if not blok.strip() or "ANALİST" in blok: continue
                 
-                h_match = re.search(r'#(\w+)', blok)
-                skor_match = re.search(r'Skor:\s*%(\d+)', blok)
+                # Regex ile Hisse, PD/DD ve RSI ayıklama
+                hisse_match = re.search(r'#(\w+)', blok)
                 pd_dd_match = re.search(r'PD/DD:\s*([\d.]+)', blok)
-
-                if h_match:
-                    h_kod = h_match.group(1).upper()
-                    skor = int(skor_match.group(1)) if skor_match else 0
-                    pd_dd = float(pd_dd_match.group(1)) if pd_dd_match else 99.0
+                rsi_match = re.search(r'RSI:\s*([\d.]+)', blok)
+                
+                if hisse_match:
+                    h_kod = hisse_match.group(1).upper()
                     
-                    # --- 🚀 10+3+3 VADE ETİKETLEME (MÜHÜRLÜ) ---
-                    # Senior Developer Kararı: %90 ve üstü doğrudan GÜNLÜK MOMENTUM
-                    if skor >= 90:
+                    # Başlığa göre Vade ve Skor Atama (90+ Günlük, 80-90 Orta)
+                    if "TAVAN ADAYI" in blok:
                         vade_tipi = "GUNLUK"
-                    elif 80 <= skor < 90:
+                        skor = 98
+                    elif "ORTA VADE" in blok:
                         vade_tipi = "ORTA"
+                        skor = 85
                     else:
                         vade_tipi = "UZUN"
+                        skor = 75
 
                     sonuclar.append({
                         "hisse": h_kod,
-                        "sinyal": "TAVAN ADAYI" if "TAVAN" in blok.upper() else "GÜÇLÜ",
+                        "sinyal": "TAVAN ADAYI" if "TAVAN" in blok else "GÜÇLÜ",
                         "skor": skor,
-                        "pd_dd": pd_dd,
+                        "pd_dd": float(pd_dd_match.group(1)) if pd_dd_match else 99.0,
                         "vade_tipi": vade_tipi,
                         "icerik": blok.strip()
                     })
